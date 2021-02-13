@@ -7,7 +7,7 @@ Template for developing and testing C++ programs
 
 ## Build project with cmake
 ```
-cmake -G "Visual Studio 16 2019" "C:\Users\Kceni\Desktop\îò÷åòû_ÎÏ\Template-for-algorithms-and-data-structures"
+cmake -G "Visual Studio 16 2019" "C:\Users\Kceni\Desktop\отчеты_ОП\Template-for-algorithms-and-data-structures"
 ```
 ## Update working branch
 ```
