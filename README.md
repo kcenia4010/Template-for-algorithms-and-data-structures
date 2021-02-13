@@ -7,10 +7,10 @@ Template for developing and testing C++ programs
 
 ## Build project with cmake
 ```
-cmake -G "Visual Studio 16 2019" "C:\Users\Kceni\Desktop\îò÷åòû_ÎÏ\Template-for-algorithms-and-data-structures"
+cmake -G "Visual Studio 16 2019" "C:\Users\Kceni\Desktop\Ã®Ã²Ã·Ã¥Ã²Ã»_ÃÃ\Template-for-algorithms-and-data-structures"
 ```
 ## Update working branch
 ```
- git checkout <your branch>
+ git checkout -b <your branch>
  git rebase master
 ```
