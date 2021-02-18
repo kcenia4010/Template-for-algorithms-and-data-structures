@@ -3,7 +3,6 @@ Template for developing and testing C++ programs
 
 * Build system: cmake
 * Tests: gtest
-* Code style check: cpplint
 
 ## Build project with cmake
 ```
