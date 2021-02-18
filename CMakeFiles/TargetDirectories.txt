@@ -1,0 +1,6 @@
+C:/Users/Kceni/Desktop/отчеты_ОП/Template-for-algorithms-and-data-structures/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kceni/Desktop/отчеты_ОП/Template-for-algorithms-and-data-structures/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kceni/Desktop/отчеты_ОП/Template-for-algorithms-and-data-structures/conventor_lib/CMakeFiles/conventor_lib.dir
+C:/Users/Kceni/Desktop/отчеты_ОП/Template-for-algorithms-and-data-structures/main/CMakeFiles/main.dir
+C:/Users/Kceni/Desktop/отчеты_ОП/Template-for-algorithms-and-data-structures/gtest/CMakeFiles/gtest.dir
+C:/Users/Kceni/Desktop/отчеты_ОП/Template-for-algorithms-and-data-structures/test/CMakeFiles/test_main.dir

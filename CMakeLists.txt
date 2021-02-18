@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.6 FATAL_ERROR)
 
-project(samples)
+project(RomanDigit)
 
 include(cmake/function.cmake)
 
-add_subdirectory(students_lib)
+add_subdirectory(convertor_lib)
 add_subdirectory(main)
 
 option(BTEST "build test?" ON)
