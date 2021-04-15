@@ -1,52 +1,44 @@
 #include <iostream>
-#include <text.h>
-#include <conio.h>
-
+#include <../polinom_lib/Monom.h>
+#include <../polinom_lib/Polinom.h>
+using namespace std;
 int main()
 {
-	Text T;	
-	while (1)
-	{
-		char ch = getch();
-		int code = static_cast<int>(ch);
-		if (ch == 27) // клавиша esc
-			exit(0);
-		if (ch == 's') // стрелка S
-			T.next();
-		if (ch == 'w') // стрелка W
-			T.top();
-		if (ch == 'd') // стрелка D
-			T.down();
-		if (ch == 32) // пробел
-		{
-			system("cls");
-			string str;
-			cout << "Name of new header: ";
-			cin >> str;
-			T.addDown(str);
-		}
-		if (ch == 'n') // буква N
-		{
-			system("cls");
-			string str;
-			cout << "Name of new header: ";
-			cin >> str;
-			T.addNext(str);
-		}
-		if (ch == 'q') // буква Q
-			T.deleteCurr();
-		if (ch == 'c') // буква C
-		{
-			system("cls");
-			string str;
-			cout << "Name of new header: ";
-			cin >> str;
-			T.SetCurr(str);
-		}
+	double* data = new double[3];
+	data[0] = 2;
+	data[1] = 7;
+	data[2] = 1;
 
-		system("cls");
-		T.print();
-		//print(T.GetHeadNode(), T.GetCurrNode());
-	}
+	TMonom a(data, 3, 1);
+
+	double* data1 = new double[3];
+	data1[0] = 1;
+	data1[1] = 0;
+	data1[2] = 4;
+	TMonom b(data1, 3, 2);
+
+	TMonom c;
+	c = a * b;
+
+	cout << a << endl << b << endl <<c << endl;
+
+	TPolinom p1, p2;
+	p1 += c;
+	p1 += a;
+	cout << "p1 = " << p1 << endl;
+
+	p2 += a;
+	p2 += a;
+	cout << "p2 = " << p2 << endl;
+
+	TPolinom p3 = p1 + p2;
+	cout << "p1 + p2 = " << p3 << endl;
+
+	TPolinom p4 = p1 - p2;
+	cout << "p1 - p2 = " << p4 << endl;
+
+	TPolinom p5 = p1 * p2;
+	cout << "p1 * p2 = " << p5 << endl;
+
 	return 0;
 }

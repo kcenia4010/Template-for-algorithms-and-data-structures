@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.6 FATAL_ERROR)
 
-project(Text)
+project(Polinom)
 
 include(cmake/function.cmake)
 
-add_subdirectory(text_lib)
+add_subdirectory(polinom_lib)
 add_subdirectory(main)
 
 option(BTEST "build test?" ON)
